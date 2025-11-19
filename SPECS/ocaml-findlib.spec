@@ -13,6 +13,8 @@ URL:            http://projects.camlcity.org/projects/findlib.html
 Source0: findlib-1.9.8.tar.gz
 Patch0: ocaml-findlib-toolbox.patch
 
+BuildRequires:  gcc
+
 BuildRequires:  ocaml >= 4.02.0
 BuildRequires:  ocaml-compiler-libs
 BuildRequires:  ocaml-ocamldoc
